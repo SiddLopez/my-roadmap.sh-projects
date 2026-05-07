@@ -6,3 +6,6 @@ These are some projects that a I have done through my coding roadmap.
 
 Click in any of the images below to go to each project.
 
+<p align="left">
+    <a href="\Single-Page_HTML-CV"></a>
+</p>
