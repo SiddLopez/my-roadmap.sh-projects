@@ -8,6 +8,6 @@ Click in any of the images below to go to each project.
 
 <p align="left">
     <a href="Single-Page_HTML-CV">
-        <img src="assets\images\OG_image.png">
+        <img width="48%" src="assets\images\OG_image.png" alt="Single Page CV" />
     </a>
 </p>
