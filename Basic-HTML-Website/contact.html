@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="HTML Contact page template linked to multiple pages"/>
+    <meta name="keywords" content="Template, HTML Website, Multi-page, Contact"/>
+    <meta name="author" content="Sidd López"/>
+
+    <!-- Title -->
     <title>Contact</title>
 </head>
 
@@ -29,7 +36,17 @@
         <h2 id="linkedin">LinkedIn</h2>
         <p>LinkedIn profile link</p>
         <h2 id="email">Email</h2>
-        <p>Email address</p>
+        <p>Email address</p><br><hr><br>
+
+        <form action="/contact" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea type="textarea" id="message" name="message" rows="8" cols="28"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
     </main>
 </body>
 </html>
